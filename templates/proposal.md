@@ -32,6 +32,16 @@ more detail with the community and in general introduce it.
 *Note:* We require you to write regular blog posts. Now is a good time to make
 sure your blog works and send us the link.
 
+
+### **Loosely think what do I want to achieve in this project:**
+
+- implement basic GARCH(p, q) model in BRMS in form consistent with brms models
+- give some statement on the possible priors one might use for the model
+- simulation-based calibration (what is this exactly?)
+- implement in syntax agnostic to that already within existence of the BRMS package
+- implement assymmetric GARCH model with Student-t innovations
+- provide a "Bayesian Workflow-esque" tutorial where we work through at least one problem, exhibiting different choices that could be made along the way including priors and the different models.
+
 ### **Phase 1**
 
 Date  | Task
@@ -40,8 +50,8 @@ Week 1 (7th June - 13th June)  | Content Cell
 Week 2 (14th June - 21st June)  | Content Cell
 Week 3 (22nd June - 28th June) | lolikhfjh
 Week 4 (29th June - 4th July) | hfdghgjgt
-Week 5 (5th July - 11th July) | 
-Week 6 (12th July - 18th July) | - my cat<br /> * my dog
+Week 5 (5th July - 11th July) | - Begin working on Phase 1 evaluation form <br /> - something else
+Week 6 (12th July - 18th July) | - Finialise and submit Phase 1 evaluation
 
 #### Week 1 (7th June - 13th June)
 
@@ -56,6 +66,13 @@ Week 6 (12th July - 18th July) | - my cat<br /> * my dog
 #### Week 6 (12th July - 18th July)
 
 ### **Phase 2**
+
+Date  | Task
+------------- | -------------
+Week 7 (19th July - 25th July)  | Content Cell
+Week 8 (26th July - 1st August)  | Content Cell
+Week 9 (2nd August - 9th August)
+Week 10 (10th August - 16th August)
 
 #### Week 7 (19th July - 25th July)
 
