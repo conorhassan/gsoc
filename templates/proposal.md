@@ -34,15 +34,27 @@ sure your blog works and send us the link.
 
 ### **Phase 1**
 
-#### Week 1
+#### Week 1 (7th June - 13th June)
 
-#### Week 2
+#### Week 2 (14th June - 21st June)
+
+#### Week 3 (22nd June - 28th June)
+
+#### Week 4 (29th June - 4th July)
+
+#### Week 5 (5th July - 11th July)
+
+#### Week 6 (12th July - 18th July)
 
 ### **Phase 2**
 
-#### Week 3
+#### Week 7 (19th July - 25th July)
 
-#### Week 4
+#### Week 8 (26th July - 1st August)
+
+#### Week 9 (2nd August - 9th August)
+
+#### Week 10 (10th August - 16th August)
 
 
 ### **Final Week**
