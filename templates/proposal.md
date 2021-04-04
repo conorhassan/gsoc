@@ -74,10 +74,14 @@ I have exposure to Stan and BRMS during a research internship, where we built mu
 
 ## Why this project?
 
-I have a strong interest in producing open source software during my research studies. Although I have only recently registered an account on the Stan forums, lurking in the forums, including finding the helpful responses of a few of the potential mentors for this project, have helped me greatly with the modelling I have done in Stan and BRMS to date. 
+INTEREST IN 
+
+
+The Stan community has contributed greatly to my knowledge and enjoyment of Bayesian Inference. Although I have only recently registered an account on the Stan forums, lurking in the forums, including finding the helpful responses of a few of the potential mentors for this project, have helped me greatly with the modelling I have done in Stan and BRMS to date. I honestly could not consider continuing my studies in Statistics in an area that was not Bayesian. 
+
+I have a strong interest in producing open source software during my research studies. All of the mentors proposed for this project have been champions of developing open source software for the wider community for a number of years, and I would love to learn from them best practices on how to develop software that is useable and beneficial to the wider community that may access this software. 
 
 ## Appendix
 
-Extra content
-
-[wbs]: https://en.wikipedia.org/wiki/Work_breakdown_structure
+Please find attached below my CV and academic transcript:
+[CV_Transcript_Conor_Hassan.pdf](https://github.com/conorhassan/gsoc/files/6253976/CV_Transcript_Conor_Hassan.pdf)
