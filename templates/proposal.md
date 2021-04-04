@@ -1,9 +1,10 @@
 #  Title 
 
+GARCH models in BRMS.
+
 ## Abstract
 
-Short description of your project. Max 10 sentences. This **SHOULD NOT** be a
-copy of the project idea text.
+The student will implement common General Autoregressive Conditional Heteroskedasticity (GARCH) style models for users in the brms R package. The R package brms is a frontend for Stan that allows R users to write R formula syntax for models that is translated and compiled into a Stan model. Currently brms allows for arma style models on the mean, but does not support GARCH style models on the variance. The student will code up several of these models in Stan, testing with simulation based calibration that the models are well calibrated, write a technical document describing the GARCH model form and how it can be incorporated into brms, then implement these models directly into brms. Challenges from brms side will be to determine which of all the other modeling options can be combined with GARCH models. For example, how to combine GARCH models on sigma with distributional regression in sigma. Other difficulties will be to implement all the post-processing such as posterior predictions etc. The existing ARMA terms already pave the way for all of this but we will have to figure out if the current structure is satisfactory for autoregressive terms to be applied to distributional parameters other than the mean. There are also other minor difficulties such as if/how GARCH models can be combined with a covariance formulation of ARMA models on the mean arma(..., cov = TRUE). These are all details we have to figure out in the process.
 
 ## Technical Details
 
@@ -33,11 +34,16 @@ sure your blog works and send us the link.
 
 ### **Phase 1**
 
-Deliverables
+#### Week 1
+
+#### Week 2
 
 ### **Phase 2**
 
-Deliverables
+#### Week 3
+
+#### Week 4
+
 
 ### **Final Week**
 
@@ -52,10 +58,11 @@ Did you do other code related projects or university courses?
 
 ## Other Experiences
 
+I have exposure to Stan and BRMS during a research internship, where we built multi-level hierachical models for the parasitic resistance shown on New Zealand farm(s). My Honours dissertation focused vaguely on Bayesian-type methods (though looking back it looks rather cringeworthy). I have completed coursework involving Bayesian inference and time series modelling to a high level (A+'s), and have used volatility models in an internship with a high frequency trading firm. Currently, I am about to begin my PhD studies focusing on Bayesian Federated Learning at Queensland University of Technology.
 
 ## Why this project?
 
-Why you want to do this project?
+I have a strong interest in producing open source software during my research studies. Although I have only recently registered an account on the Stan forums, lurking in the forums, including finding the helpful responses of a few of the potential mentors for this project, have helped me greatly with the modelling I have done in Stan and BRMS to date. 
 
 ## Appendix
 
