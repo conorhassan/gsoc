@@ -34,7 +34,7 @@ sure your blog works and send us the link.
 
 ### **Phase 1**
 
-First Header  | Second Header
+Date  | Task
 ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
