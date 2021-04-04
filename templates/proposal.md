@@ -97,12 +97,11 @@ Did you do other code related projects or university courses?
 
 ## Other Experiences
 
-I have exposure to Stan and BRMS during a research internship, where we built multi-level hierachical models for the parasitic resistance shown on New Zealand farm(s). My Honours dissertation focused vaguely on Bayesian-type methods (though looking back it looks rather cringeworthy). I have completed coursework involving Bayesian inference and time series modelling to a high level (A+'s), and have used volatility models in an internship with a high frequency trading firm. Currently, I am about to begin my PhD studies focusing on Bayesian Federated Learning at Queensland University of Technology.
+I have gained exposure to Stan and BRMS during a research internship, where we built multi-level hierachical models for the parasitic resistance shown on New Zealand farm(s). My Honours dissertation focused vaguely on Bayesian-type methods (though looking back it looks rather cringeworthy). I have completed coursework involving Bayesian inference and time series modelling to a high level (A+'s), and have used volatility models in an internship with a high frequency trading firm. Currently, I am about to begin my PhD studies focusing on Bayesian Federated Learning at the Queensland University of Technology.
 
 ## Why this project?
 
-INTEREST IN 
-
+I love the BRMS package, and think tooling like this is an awesome step in building pieces of software that help improve Bayesian workflow immensely. I think that the ability to implement time series models that allow for auto-regressive terms to be with both the mean and variance parameters will expose the BRMS package to a much wider audience.
 
 The Stan community has contributed greatly to my knowledge and enjoyment of Bayesian Inference. Although I have only recently registered an account on the Stan forums, lurking in the forums, including finding the helpful responses of a few of the potential mentors for this project, have helped me greatly with the modelling I have done in Stan and BRMS to date. I honestly could not consider continuing my studies in Statistics in an area that was not Bayesian. 
 
