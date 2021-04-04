@@ -34,6 +34,11 @@ sure your blog works and send us the link.
 
 ### **Phase 1**
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 #### Week 1 (7th June - 13th June)
 
 #### Week 2 (14th June - 21st June)
