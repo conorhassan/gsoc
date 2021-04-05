@@ -3,29 +3,11 @@
 
 ## Abstract
 
-We will implement a number of General Autoregressive Conditional Heteroskedasticity (GARCH) models into the brms package. The family of GARCH model is appropriate for time series data where the variance exhibited by the error term follows an autoregressive moving average process. BRMS is an R package which interfaces with Stan to fit a wide range of models. We will begin by implementing a number of the family of GARCH models within Stan. The calibration of these models will be tested using simulation based calibration. This will test whether the posterior of the data generation process specified by the model(s) can be accurately sampled by the sampling algorithm implemented by Stan. We will then provide documentation describing the models and what other pre-existing modeling options within BRMS can be combined with these GARCH models. Lastly, I would like to provide a specific “Bayesian workflow-esqe” blog post, stepping through a problem, showing implementation of the range of GARCH models now (“future now”) possible within BRMS.
+We will implement a number of General Autoregressive Conditional Heteroskedasticity (GARCH) models into the brms package. The family of GARCH model is appropriate for time series data where the variance exhibited by the error term follows an autoregressive moving average process. BRMS is an R package which interfaces with Stan to fit a wide range of models. We will begin by implementing a number of the family of GARCH models within Stan. The calibration of these models will be tested using simulation based calibration. This will test whether the posterior of the data generation process specified by the model(s) can be accurately sampled by the sampling algorithm implemented by Stan. We will then provide documentation describing the models and what other pre-existing modeling options within BRMS can be combined with these GARCH models. Lastly, I would like to provide specific “Bayesian workflow-esqe” tutorials/articles, explaining their usage.
 
 ## Technical Details
 
-
 The student will implement common General Autoregressive Conditional Heteroskedasticity (GARCH) style models for users in the brms R package. The R package brms is a frontend for Stan that allows R users to write R formula syntax for models that is translated and compiled into a Stan model. Currently brms allows for arma style models on the mean, but does not support GARCH style models on the variance. The student will code up several of these models in Stan, testing with simulation based calibration that the models are well calibrated, write a technical document describing the GARCH model form and how it can be incorporated into brms, then implement these models directly into brms. Challenges from brms side will be to determine which of all the other modeling options can be combined with GARCH models. For example, how to combine GARCH models on sigma with distributional regression in sigma. Other difficulties will be to implement all the post-processing such as posterior predictions etc. The existing ARMA terms already pave the way for all of this but we will have to figure out if the current structure is satisfactory for autoregressive terms to be applied to distributional parameters other than the mean. There are also other minor difficulties such as if/how GARCH models can be combined with a covariance formulation of ARMA models on the mean arma(..., cov = TRUE). These are all details we have to figure out in the process.
-
-## Schedule of Deliverables
-
-Here should come a list of your milestones. This list is a start based on the
-difference phases of GSoC. Use it as a start. You can/should add more details
-for each phase by breaking it down into weeks or set specific targets for each
-phase. Each target should be split into sub task with a time estimate, [work
-breakdown structures][wbs] are helpful here.
-
-### **Community Bonding Period**
-
-This phase is to get to know the community better. Check that your build
-environment is setup. This time should also be used to discuss your project in
-more detail with the community and in general introduce it. 
-
-*Note:* We require you to write regular blog posts. Now is a good time to make
-sure your blog works and send us the link.
 
 
 ### **Loosely think what do I want to achieve in this project:**
@@ -43,16 +25,18 @@ sure your blog works and send us the link.
   -  I agree with @stevebronder applying a GARCH structure to other distributions might be tricky, for example, the t-student innovation GARCH model is a mixture of a normal and gamma distribution, such that the marginal likelihood follows a student-t, or models such as Poisson ARMA models actually are integer GARCH models.
   -  another three references of Bayesian time series tings.
 
-### **Phase 1**
+## Schedule of Deliverables
 
-Date  | Task
-------------- | -------------
-Week 1 (7th June - 13th June)  | Content Cell
-Week 2 (14th June - 21st June)  | Content Cell
-Week 3 (22nd June - 28th June) | lolikhfjh
-Week 4 (29th June - 4th July) | hfdghgjgt
-Week 5 (5th July - 11th July) | - Begin working on Phase 1 evaluation form <br /> - something else
-Week 6 (12th July - 18th July) | - Finialise and submit Phase 1 evaluation
+### **Community Bonding Period**
+
+By this stage, I will have already completed some beginner-level PR's to Stan. During this community bonding period, I will:
+
+- contribute to issues being raised on the Stan Discourse regarding time series modelling within BRMS.
+- gain a thorough understanding of the structure of Stan code being generated under the hood by the pre-existing time series models.
+  - discuss with mentors choices made within the Stan code under the BRMS function calls to ensure I implement optimised Stan code.
+- make sure the blog is set up, and promote the beginning of the project, and inform people of what the expected results of the project will be.
+
+### **Phase 1**
 
 #### Week 1 (7th June - 13th June)
 
@@ -68,13 +52,6 @@ Week 6 (12th July - 18th July) | - Finialise and submit Phase 1 evaluation
 
 ### **Phase 2**
 
-Date  | Task
-------------- | -------------
-Week 7 (19th July - 25th July)  | Content Cell
-Week 8 (26th July - 1st August)  | Content Cell
-Week 9 (2nd August - 9th August)
-Week 10 (10th August - 16th August)
-
 #### Week 7 (19th July - 25th July)
 
 #### Week 8 (26th July - 1st August)
@@ -86,9 +63,7 @@ Week 10 (10th August - 16th August)
 
 ### **Final Week**
 
-At this stage you should finish up your project. At this stage you should make
-sure that you have code submitted to your organization. Our criteria to mark
-your project as a success is to submit code before the end of GSoC.
+Loololjkkgukiuluiu
 
 ## Development Experience
 
