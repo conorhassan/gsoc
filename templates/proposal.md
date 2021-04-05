@@ -3,9 +3,22 @@
 
 ## Abstract
 
-We will implement a number of General Autoregressive Conditional Heteroskedasticity (GARCH) models into the brms package. The family of GARCH model is appropriate for time series data where the variance exhibited by the error term follows an autoregressive moving average process. BRMS is an R package which interfaces with Stan to fit a wide range of models. We will begin by implementing a number of the family of GARCH models within Stan. The calibration of these models will be tested using simulation based calibration. This will test whether the posterior of the data generation process specified by the model(s) can be accurately sampled by the sampling algorithm implemented by Stan. We will then provide documentation describing the models and what other pre-existing modeling options within BRMS can be combined with these GARCH models. Lastly, I would like to provide specific “Bayesian workflow-esqe” tutorials/articles, explaining their usage.
+We will implement a number of General Autoregressive Conditional Heteroskedasticity (GARCH) models into the brms package. The family of GARCH model is appropriate for time series data where the variance exhibited by the error term follows an autoregressive moving average process. brms is an R package which interfaces with Stan to fit a wide range of models. We will begin by implementing a number of the family of GARCH models within Stan. The calibration of these models will be tested using simulation based calibration. This will test whether the posterior of the data generation process specified by the model(s) can be accurately sampled by the sampling algorithm implemented by Stan. We will then provide documentation describing the models and what other pre-existing modeling options withi brms can be combined with these GARCH models. Lastly, I would like to provide specific “Bayesian workflow-esqe” tutorials/articles, explaining their usage.
 
 ## Technical Details
+
+The implementation of GARCH models into brms could be considered to have the following steps:
+
+- coding up the GARCH(p, q) model and its adaptions optimally into Stan.
+- completing simulation based calibration of the respective models.
+- implement these models directly into brms.
+- determine what current modelling options available in brms could be used alongside the GARCH model(s).
+- provide documentation describing the models and how they can be used within brms.
+
+If we assume that the variance of the errors with a time series sequence are modelled by an autoregressive moving average (ARMA), then the model is considered a generalised autoregressive conditional heteroskedasticty (GARCH) model. This can be expressed as:
+\begin{align}
+
+
 
 The student will implement common General Autoregressive Conditional Heteroskedasticity (GARCH) style models for users in the brms R package. The R package brms is a frontend for Stan that allows R users to write R formula syntax for models that is translated and compiled into a Stan model. Currently brms allows for arma style models on the mean, but does not support GARCH style models on the variance. The student will code up several of these models in Stan, testing with simulation based calibration that the models are well calibrated, write a technical document describing the GARCH model form and how it can be incorporated into brms, then implement these models directly into brms. Challenges from brms side will be to determine which of all the other modeling options can be combined with GARCH models. For example, how to combine GARCH models on sigma with distributional regression in sigma. Other difficulties will be to implement all the post-processing such as posterior predictions etc. The existing ARMA terms already pave the way for all of this but we will have to figure out if the current structure is satisfactory for autoregressive terms to be applied to distributional parameters other than the mean. There are also other minor difficulties such as if/how GARCH models can be combined with a covariance formulation of ARMA models on the mean arma(..., cov = TRUE). These are all details we have to figure out in the process.
 
