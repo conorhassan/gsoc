@@ -36,15 +36,48 @@ By this stage, I will have already completed some beginner-level PR's to Stan. D
   - discuss with mentors choices made within the Stan code under the BRMS function calls to ensure I implement optimised Stan code.
 - make sure the blog is set up, and promote the beginning of the project, and inform people of what the expected results of the project will be.
 
+Phase 1
+Start Implementing the proposed function as decided in the design phase.
+Conclude the design.
+Type hint the inputs.
+Write documentation.
+Write plot examples.
+Submit GSoC Phase 1 evaluations.
+Write blog posts.
+Check behavior in different cases.
+Debug.
+Take review from the mentors and other community members.
+Work on suggested changes by mentors.
+
+Final Week
+Submit GSoC final evaluations.
+Write project summary as final blog post
+
+
 ### **Phase 1**
 
 #### Week 1 (7th June - 13th June)
 
+- Implement GARCH(p, q) in Stan, allow for autoregressive distributional parameters for the mean component also.
+- Carry out simulation based calibration for the above model.
+- Experiment with the use of different priors for above model.
+
 #### Week 2 (14th June - 21st June)
+
+- Discuss work done with mentors regarding basic GARCH(p, q). 
+- Either work on suggested changes or begin implementing into BRMS. 
 
 #### Week 3 (22nd June - 28th June)
 
+- Continue model implementation into BRMS
+- Do blog post updating how the project is going. 
+- Begin writing documentation for the model's use within BRMS.
+
 #### Week 4 (29th June - 4th July)
+
+- Work out what pre-existing models within BRMS could currently be used with the GARCH(p, q) implementation.
+- Decide with mentor(s) why / why not (sadly inevitable) some modelling options cannot be combined with current GARCH(p, q) implementation in BRMS
+  - Decide what modelling options are within reach to be able to be combined with the GARCH(p, q) implementation.
 
 #### Week 5 (5th July - 11th July)
 
@@ -63,7 +96,8 @@ By this stage, I will have already completed some beginner-level PR's to Stan. D
 
 ### **Final Week**
 
-Loololjkkgukiuluiu
+- Submit GSoC final evaluations.
+- Write project summary as final blog post
 
 ## Development Experience
 
